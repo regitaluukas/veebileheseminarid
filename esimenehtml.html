@@ -10,8 +10,28 @@
 	  border: 5px solid rgb(15, 8, 107);
 	}
 	body {background-color: bisque}
+	.split {
+  	height: 100%;
+  	width: 50%;
+  	position: fixed;
+ 	 z-index: 1;
+  	top: 0;
+  	overflow-x: hidden;
+  	padding-top: 20px;
+	}
+
+	.left {
+  	left: 0;
+  	background-color: blanchedalmond;
+	}
+
+	.right {
+  	right: 0;
+  	background-color: rgb(124, 124, 122);
+	}
 </style>
 <body>
+<div class="split left">
 <FONT SIZE=5>
 <h1 style="font-family:verdana;color:blue;">Kromaatiline kannel</h1>
 </FONT>
@@ -20,7 +40,9 @@
 <br />
 <p>Rohkem infot saad <a href="https://et.wikipedia.org/wiki/Kromaatiline_kannel" target="_blank">siit.</a></p>
 <br />
+</div>
 </FONT>
+<div class="split right">
 <img
 
 		src="http://www.resonabilis.com/Pildid/kannel2.jpeg"
@@ -50,5 +72,6 @@
 	<li>Rahvakannel</li>
 </ul>
 <p>Liigu edasi järgmisele lehele, klõpsates <a href="./teineleht.html">siia.</a></p>
+</div>
 </body>
 </html>
